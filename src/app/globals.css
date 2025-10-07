@@ -1,5 +1,29 @@
 @import "tailwindcss";
 
 body {
-  background-color: #0D0D0D;
+  background-color: #0d0d0d;
+}
+
+.theme-colorful {
+  --bg-primary: #f3f3f3;
+  --bg-secondary: #ffffff;
+  --bg-button: #b5e2fa;
+  --bg-login: #b5e2fa;
+  --text-login: #b5e2fa;
+  --text-primary: #0d0d0d;
+  --text-secondary: #000000;
+  --input-bg: #ebf6d8;
+  --border-colour: #000000;
+}
+
+.theme-monotone {
+  --bg-primary: #f3f4f6;
+  --bg-secondary: #ffffff;
+  --bg-button: #0d0d0d;
+  --bg-login: #0d0d0d;
+  --text-login: #0d0d0d;
+  --text-primary: #f3f3f3;
+  --text-secondary: #000000;
+  --input-bg: #e5e7eb;
+  --border-colour: #f3f3f3;
 }

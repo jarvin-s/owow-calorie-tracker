@@ -18,8 +18,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={`${pixelifySans.className} antialiased`}>
+    <html lang="en">
+      <body
+        className={`${pixelifySans.className} antialiased`}
+        suppressHydrationWarning
+      >
         {children}
       </body>
     </html>
